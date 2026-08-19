@@ -7,7 +7,7 @@
  */
 const BASE_URL =
   import.meta.env.VITE_API_BASE_URL ||
-  `${import.meta.env.VITE_API_URL || "http://localhost:8000"}/api`;
+  `${import.meta.env.VITE_API_URL || "https://task-maanager-basecamp-1.onrender.com"}/api`;
 const DEFAULT_TIMEOUT_MS = 10000;
 import { getToken, removeToken } from "../utils/auth";
 
